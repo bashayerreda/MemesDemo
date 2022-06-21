@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MemesKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Memes">Memes</string>
+    <string name="Memes_World">Memes World</string>
+</resources>
