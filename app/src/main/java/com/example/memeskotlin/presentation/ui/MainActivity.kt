@@ -1,4 +1,4 @@
-package com.example.memeskotlin.ui
+package com.example.memeskotlin.presentation.ui
 
 import android.os.Bundle
 import android.util.Log

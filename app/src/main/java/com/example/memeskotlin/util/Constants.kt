@@ -1,4 +1,4 @@
-package com.example.memeskotlin.constant
+package com.example.memeskotlin.util
 
 class Constants {
     companion object{

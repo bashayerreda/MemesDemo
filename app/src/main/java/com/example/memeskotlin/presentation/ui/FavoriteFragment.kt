@@ -1,4 +1,4 @@
-package com.example.memeskotlin.ui
+package com.example.memeskotlin.presentation.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.memeskotlin.MemesAdapter
 import com.example.memeskotlin.R
-import com.example.memeskotlin.pojos.Memes
-import com.example.memeskotlin.viewmodels.FavoritesViewModel
+import com.example.memeskotlin.domain.models.Memes
+import com.example.memeskotlin.presentation.viewmodels.FavoritesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_favorite.*
 import kotlinx.coroutines.flow.collect

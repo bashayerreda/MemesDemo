@@ -1,12 +1,11 @@
 package com.example.memeskotlin
 
-import android.R.attr.data
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.memeskotlin.pojos.Memes
+import com.example.memeskotlin.domain.models.Memes
 import kotlinx.android.synthetic.main.row_items.view.*
 import java.lang.Boolean.FALSE
 

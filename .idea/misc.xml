@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidreview/Kotlin/MemesKotlin/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/androidreview/Kotlin/MemesKotlin/app/src/main/res/layout/activity_splash_screen.xml" value="0.17481884057971014" />
+        <entry key="..\:/androidreview/Kotlin/MemesKotlin/app/src/main/res/layout/fragment_favorite.xml" value="0.17481884057971014" />
         <entry key="..\:/androidreview/Kotlin/MemesKotlin/app/src/main/res/layout/fragment_memes.xml" value="0.20652173913043478" />
+        <entry key="..\:/androidreview/Kotlin/MemesKotlin/app/src/main/res/layout/row_items.xml" value="0.17481884057971014" />
       </map>
     </option>
   </component>

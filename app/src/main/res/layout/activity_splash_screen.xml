@@ -7,7 +7,7 @@
     android:background="@drawable/bg_check_type"
     android:gravity="bottom"
     android:orientation="vertical"
-    tools:context=".SplashScreen">
+    tools:context=".presentation.ui.SplashScreen">
     <ImageView
         android:id="@+id/splash_img"
         android:layout_width="wrap_content"

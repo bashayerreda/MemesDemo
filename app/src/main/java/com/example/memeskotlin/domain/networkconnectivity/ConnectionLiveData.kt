@@ -1,18 +1,13 @@
-package com.example.memeskotlin.networkconnectivity
+package com.example.memeskotlin.domain.networkconnectivity
 
-import android.annotation.SuppressLint
 import android.annotation.TargetApi
-import android.app.Application
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.net.*
 import android.os.Build
-import android.os.Build.VERSION_CODES.LOLLIPOP
-import androidx.annotation.RequiresApi
 import androidx.lifecycle.LiveData
-import dagger.hilt.android.qualifiers.ApplicationContext
 
 class ConnectionLiveData(private val context: Context) : LiveData<Boolean>() {
     private var connectivityManager: ConnectivityManager =

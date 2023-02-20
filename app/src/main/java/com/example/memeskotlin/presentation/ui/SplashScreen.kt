@@ -1,4 +1,4 @@
-package com.example.memeskotlin
+package com.example.memeskotlin.presentation.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.memeskotlin.ui.MainActivity
+import com.example.memeskotlin.R
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 
 class SplashScreen : AppCompatActivity() {

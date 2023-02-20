@@ -1,7 +1,6 @@
-package com.example.memeskotlin.repositry
+package com.example.memeskotlin.data.local
 
-import com.example.memeskotlin.database.MemesDao
-import com.example.memeskotlin.pojos.Memes
+import com.example.memeskotlin.domain.models.Memes
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

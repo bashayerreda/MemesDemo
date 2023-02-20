@@ -1,14 +1,15 @@
-package com.example.memeskotlin.viewmodels
+package com.example.memeskotlin.presentation.viewmodels
 
 import android.util.Log
-import com.example.memeskotlin.pojos.Memes
+import com.example.memeskotlin.domain.models.Memes
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
+
 import androidx.lifecycle.viewModelScope
-import com.example.memeskotlin.repositry.DataBaseRepo
-import com.example.memeskotlin.repositry.Repo
+import com.example.memeskotlin.data.local.DataBaseRepo
+import com.example.memeskotlin.data.remote.Repo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

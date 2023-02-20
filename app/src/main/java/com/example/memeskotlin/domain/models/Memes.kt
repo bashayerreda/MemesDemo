@@ -1,4 +1,4 @@
-package com.example.memeskotlin.pojos
+package com.example.memeskotlin.domain.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

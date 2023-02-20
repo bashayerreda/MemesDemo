@@ -1,4 +1,4 @@
-package com.example.memeskotlin.ui
+package com.example.memeskotlin.presentation.ui
 
 import android.app.AlertDialog
 import android.content.DialogInterface
@@ -19,9 +19,9 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.memeskotlin.MemesAdapter
 import com.example.memeskotlin.R
 import com.example.memeskotlin.util.Resource
-import com.example.memeskotlin.networkconnectivity.ConnectionLiveData
-import com.example.memeskotlin.pojos.Memes
-import com.example.memeskotlin.viewmodels.MemesViewModel
+import com.example.memeskotlin.domain.networkconnectivity.ConnectionLiveData
+import com.example.memeskotlin.domain.models.Memes
+import com.example.memeskotlin.presentation.viewmodels.MemesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_memes.*
 import kotlinx.coroutines.launch
